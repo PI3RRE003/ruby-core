@@ -1,0 +1,1 @@
+metodo_pagamento = PagamentoPix.new(agua.preco)
