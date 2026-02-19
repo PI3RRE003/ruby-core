@@ -1,0 +1,1 @@
+senhor_dos_aneis = Livro.new("Senhor dos aneis", "JRR Tolkiein")
