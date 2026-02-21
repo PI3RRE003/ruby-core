@@ -7,6 +7,3 @@ class ContaPoupanca < ContaBancaria
       depositar(juros) #usando metodos ja existentes para evitar repetição de codigo
     end
 end
-
-cp = ContaPoupanca.new("Kaw", 2000)
-cp.render_juros

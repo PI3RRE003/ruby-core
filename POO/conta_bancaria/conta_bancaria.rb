@@ -24,6 +24,15 @@ class ContaBancaria
     @saldo -= valor
     puts "Saque realizado de R$:#{valor} Novo Saldo R$:#{@saldo} "
   end
+
+  def transferir(valor, conta)
+    if valor <= limite_disponivel 
+      sacar(valor)
+      conta.depositar(valor)
+    else
+      puts"Erro: saldo insuficiente"
+    end
+  end
 end
 
 

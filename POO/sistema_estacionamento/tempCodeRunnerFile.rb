@@ -1,0 +1,1 @@
+estacionamento_centro.estacionar(palio)

@@ -21,6 +21,3 @@ class ContaCorrente < ContaBancaria
     end
 end
 
-cc = ContaCorrente.new("Vitor", 100) # nome e saldo incial
-cc.sacar(10) 
-puts "Saldo:#{cc.saldo}" 
